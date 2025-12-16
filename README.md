@@ -1,4 +1,4 @@
-# ProspectAI – Lead Intelligence & Ranking Demo
+# ProspectAI – 3D In-Vitro Lead Qualification Web Agent
 
 ProspectAI is a **demo lead-intelligence pipeline** built as part of an internship screening assignment.  
 It simulates how a business development team can **identify, enrich, and prioritize high-intent biotech decision-makers** using scientific, role-based, and business signals.
