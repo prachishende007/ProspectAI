@@ -78,24 +78,43 @@ Rank | Probability | Name | Title | Company | Location | HQ | Email | LinkedIn
 ## 📁 Project Structure
 
 prospectai/
+
 │
+
 ├── data/
+
 │   ├── raw/
+
 │   │   ├── pubmed_data.csv
+
 │   │   └── linkedin_mock.csv
+
 │   ├── processed/
+
 │   │   ├── identified_leads.csv
+
 │   │   ├── enriched_leads.csv
+
 │   │   └── ranked_leads.csv
+
 │
+
 ├── src/
+
 │   ├── identification.py
+
 │   ├── enrichment.py
+
 │   ├── scoring.py
+
 │   └── utils.py
+
 │
+
 ├── app.py          # Streamlit dashboard
+
 ├── requirements.txt
+
 └── README.md
 
 ---
@@ -151,4 +170,5 @@ streamlit run app.py
 
 **Prachi Shende**  
 PreFinal Year B.Tech Student
+
 Email: prachishende182@gmail.com
