@@ -121,13 +121,15 @@ Scores are normalized to a **0–100 scale** to allow easy comparison.
 ```bash
 git clone https://github.com/your-username/prospectai.git
 cd prospectai
-
+```
 2. Install dependencies
+```bash
 pip install -r requirements.txt
-
-3. Run the dashboard
+```
+4. Run the dashboard
+```bash
 streamlit run app.py
-
+```
 ## 📌 Notes & Assumptions
 
 - LinkedIn data is **mocked** to avoid scraping restrictions  
@@ -148,5 +150,5 @@ streamlit run app.py
 ## 👤 Author
 
 **Prachi Shende**  
-Final Year Engineering Student | Aspiring Data Scientist  
-Built as part of an internship screening assignment
+PreFinal Year B.Tech Student
+Email: prachishende182@gmail.com
