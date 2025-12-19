@@ -128,4 +128,5 @@ def calculate_semantic_relevance(publication_abstract, product_solution_text):
 ---
 ## Contact
 Prachi Shende
+
 Email: prachishende182@gmail.com
