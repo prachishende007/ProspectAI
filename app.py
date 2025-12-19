@@ -9,8 +9,8 @@ st.title("ProspectAI: Lead Generation Agent")
 st.markdown("### Ranking results for 3D In-Vitro Model Prospects")
 
 # File Paths
-LI_FILE = "Data/linkedin.csv"
-PUB_FILE = "Data/pubmed_data.csv"
+LI_FILE = "linkedin.csv"
+PUB_FILE = "pubmed_data.csv"
 
 if os.path.exists(LI_FILE) and os.path.exists(PUB_FILE):
     # Process Data
@@ -40,4 +40,5 @@ if os.path.exists(LI_FILE) and os.path.exists(PUB_FILE):
     csv = df.to_csv(index=False).encode('utf-8')
     st.download_button("📥 Download Ranked Leads", csv, "ranked_leads.csv", "text/csv")
 else:
+
     st.error("Data files missing. Please ensure 'linkedin_data.csv' and 'Data/pubmed_data.csv' are uploaded.")
