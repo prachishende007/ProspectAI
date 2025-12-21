@@ -16,8 +16,8 @@ if os.path.exists(LI_FILE) and os.path.exists(PUB_FILE):
     # Process Data
     df = load_and_process_results(LI_FILE, PUB_FILE)
 
-    # Filter/Search Bar
-    search = st.text_input("🔍 Search by HQ, Company, or Keyword (e.g., 'Boston' or 'Safety')")
+    # Search Bar
+    search = st.text_input("Search by HQ, Company, or Keyword (e.g., 'Boston' or 'Safety')")
     if search:
         df = df[df.apply(lambda r: search.lower() in str(r).lower(), axis=1)]
 
@@ -42,3 +42,4 @@ if os.path.exists(LI_FILE) and os.path.exists(PUB_FILE):
 else:
 
     st.error("Data files missing. Please ensure 'linkedin_data.csv' and 'Data/pubmed_data.csv' are uploaded.")
+
