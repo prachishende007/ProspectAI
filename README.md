@@ -117,15 +117,6 @@ def calculate_semantic_relevance(publication_abstract, product_solution_text):
 ```
 
 ---
-
-### Why this helps your application:
-* **Demonstrates Vision:** It shows Akash that you aren't just a "task-doer," but someone who understands how to scale a project into a real AI product.
-* **Technical Vocabulary:** Using terms like "Cosine Similarity," "Embedding Generation," and "Vector Space" signals that you have the theoretical knowledge required for an AI/ML role.
-* **Code Proficiency:** Providing the pseudo-code for the SBERT implementation proves you know which libraries (`sentence-transformers`) are standard in the industry.
-
-**Next Step:** Since your code is now complete, would you like me to help you write a **Professional Summary** for your Resume that highlights this project?
-
----
 ## Contact
 Prachi Shende
 
